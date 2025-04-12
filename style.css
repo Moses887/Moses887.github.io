@@ -1,0 +1,91 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #111;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+}
+
+section {
+    padding: 2rem 4rem;
+    margin: 2rem 0;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+section p, section ul {
+    font-size: 1.1rem;
+    color: #ddd;
+    line-height: 1.7;
+}
+
+#about-me p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+#skills ul, #languages ul, #microsoft-learn-badges ul, #work-experience ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#skills li, #languages li, #microsoft-learn-badges li, #work-experience li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+#work-experience h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+#work-experience p {
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+#education p, #contact p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
